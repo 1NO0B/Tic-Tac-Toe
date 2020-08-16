@@ -1,0 +1,19 @@
+Tic Tac Toe
+
+
+int Array[3][3] mit 0 für leer, 1 für X, 2 für O
+
+    1 | 0 | 2
+    ---------
+    0 | 1 | 0
+    ---------
+    2 | 2 | 0
+
+
+  Benutzereingabe:
+  Knopfdruck Tabellenplatz wird verändert; nachdem Check ob boolean besetzt == false
+
+  alle Gewinnmöglichkeiten manuell einzeln eintragen
+
+
+  Spielschleife im Start, in Spielschleife Neustart/Endeschleife, Scoring, Modi, Player versus Bot und PvP
