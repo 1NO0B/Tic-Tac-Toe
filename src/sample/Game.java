@@ -16,6 +16,8 @@ public class Game {
         for (int e = 0; e < 3; e++) {
             board[2][e] = "0";
         }
+        won="0";
+        currentplayer="X";
 
     }
 

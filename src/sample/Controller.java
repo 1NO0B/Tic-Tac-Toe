@@ -35,7 +35,21 @@ public class Controller {
 
     }
 
+    public void controller() {
 
+        button00.setText("");
+        button01.setText("");
+        button02.setText("");
+        button10.setText("");
+        button11.setText("");
+        button12.setText("");
+        button20.setText("");
+        button21.setText("");
+        button22.setText("");
+
+
+
+    }
 
 
 

@@ -71,11 +71,20 @@ public class Main extends Application {
 
            Button restart = new Button();
            restart.setText("New Game");
+           restart.setFont(Font.font(65));
+
        restart.setOnAction(new EventHandler<ActionEvent>() {
            @Override
            public void handle(ActionEvent event) {
-               window.setScene(game);
-               window.show();
+               try {
+                   Scene game2 = new Scene(FXMLLoader.load(Main.class.getResource("sample.fxml")), 900, 900);
+                   window.setScene(game2);
+                   window.show();
+               } catch (IOException e) {
+                   e.printStackTrace();
+               }
+               
+
                Game.game();
            }
        });
